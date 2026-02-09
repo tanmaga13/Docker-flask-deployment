@@ -1,1 +1,6 @@
-print("HELLO, THIS IS FIRST TIME USING DOCKER IN LINUX USING ALPINE-3.10 but Version 3(v3)")
+with open("names.txt") as f:
+    names = f.read()
+    names = names.split()
+
+    for i,name in enumerate(names):
+        print(f"{i+1}.{name}")

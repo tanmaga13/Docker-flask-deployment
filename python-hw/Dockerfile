@@ -1,6 +1,10 @@
 FROM python:3.10-alpine
 
-ADD app.py /tree/first_app.py
+WORKDIR /tree
 
-CMD [ "python3","./tree/first_app.py" ]
+ADD . .
+
+ENTRYPOINT [ "python3" ]
+
+CMD [ "app.py" ]
 
