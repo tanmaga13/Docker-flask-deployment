@@ -1,0 +1,103 @@
+    8  docker run hello-world
+   10  docker run hello-world
+   15  sudo apt install docker.io
+   16  docker --version
+   17  sudo apt install docker.io
+   21  sudo apt install docker.io
+   22  docker --version
+   23  sudo docker --version
+   26  docker run hello-world
+   28  docker --version
+   29  docker run hello-world
+   30  sudo groupadd docker
+   31  sudo usermod -aG docker $USER
+   32  newgrp docker
+  195  wget https://docs.docker.com/
+  208  docker run -it kalilinux/kali-rolling
+  210  docker start 678d5c5b57be
+  211  docker stop 678d5c5b57be
+  212  docker ps
+  213  docker start 678d5c5b57be
+  214  docker ps
+  215  docker exec 678d5c5b57be
+  216  docker exec -it 678d5c5b57be
+  217  docker exec -it --help
+  218  docker exec -it 678d5c5b57be
+  219  docker -it exec 678d5c5b57be
+  220  docker exec -it 678d5c5b57be /bin/sh
+  221  docker ps
+  222  docker stop 678d5c5b57be
+  223  docker ps
+  224  docker ps -a
+  245  docker run hello-world
+  246  docker pull alpine
+  247  docker run alpine
+  248  docker ps
+  249  docker ps -a
+  250  docker run -it alpine
+  253  docker ps
+  254  docker ps -a
+  255  docker pull kalilinux/kali-rolling
+  257  docker ps
+  258  docker stop 678d5c5b57be
+  260  docker ps
+  261  docker ps -a
+  262  docker ps
+  263  docker ps -a
+  264  docker ps
+  269  docker run nginx
+  271  docker ps -a
+  272  docker run -it -p 80:80 nginx
+  273  docker run -it -p 2004:80 nginx
+  322  docker build -t python-hw .
+  325  docker build -t python-hw .
+  326  docker run python-hw
+  327  docker image
+  328  docker images
+  332  docker build -t python-hw:v2 .
+  333  docker run python-hw
+  334  docker images
+  336  sudo apt-get install docker-buildx-plugin
+  337  docker buildx version
+  340  docker ps
+  341  docker images
+  344  docker build -t python-hw .
+  345  docker run python-hw
+  346  docker build -t python-hw:v2 .
+  347  docker run python-hw
+  348  docker images
+  352  docker build -t python-hw:v3 .
+  353  docker run python-hw
+  354  docker run python-hw:v3
+  355  docker images
+  356  docker run python-hw:v2
+  357  docker run python-hw:v3
+  406  docker build -t python-hw .
+  407  docker run python-hw
+  410  docker build -t python-hw .
+  411  docker run python-hw
+  412  docker images
+  413  docker ps
+  414  docker ps -a
+  417  docker images
+  418  docker exec -it a9e8874114ec bash
+  419  docker run -it python-hw
+  420  docker exec -it a9e8874114ec bash
+  421  docker images
+  423  docker image ls dangling=true
+  424  docker image prune
+  425  docker images
+  427  docker ps -a
+  428  docker ps -aq
+  429  docker rm $(docker ps -aq)
+  430  docker ps -aq
+  431  docker ps -a
+  432  docker image prune
+  433  docker images
+  434  docker ps -a
+  435  docker rm 9a7c5808942d
+  436  docker ps
+  455  docker build -t node-hw .
+  456  docker run node-hw
+  458  docker images
+  473  history | grep "docker"  > my_commands.txt
